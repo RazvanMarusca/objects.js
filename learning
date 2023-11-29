@@ -20,7 +20,7 @@ console.log(razvan);
 
 const interestedIn = prompt("What do you want to know about Răzvan? Choose between firstName, lastName, age, actualJob and futureJob");
 
-if (jonas[interestedIn]) {
+if (razvan[interestedIn]) {
     console.log(razvan[interestedIn]);
 } else {
     console.log("Wrong request! Choose between firstName, lastName, age, actualJob and futureJob")
