@@ -1,0 +1,27 @@
+//using arrays
+const razvanArray = [
+    "Răzvan",
+    "Marușca",
+    "2023-1996",
+    "Medical assistant",
+    "Web Developer"
+];
+
+//using objects
+const razvan = {
+    firstName: "Răzvan",
+    lastName: "Marușca",
+    age: 2023 - 1996,
+    actualJob: "Medical Assistant",
+    futureJob: "Web Developer"
+};
+
+console.log(razvan);
+
+const interestedIn = prompt("What do you want to know about Răzvan? Choose between firstName, lastName, age, actualJob and futureJob");
+
+if (jonas[interestedIn]) {
+    console.log(razvan[interestedIn]);
+} else {
+    console.log("Wrong request! Choose between firstName, lastName, age, actualJob and futureJob")
+}
